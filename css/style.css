@@ -18,7 +18,10 @@ main{
     overflow-y: scroll;
 }
 
-
 main header{
     background-color: cornflowerblue;
+}
+
+.dev_stats{
+    width: 100%;
 }
