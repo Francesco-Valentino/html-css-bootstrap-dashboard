@@ -1,0 +1,18 @@
+header{
+    height: 80px;
+    background-color: aqua;
+}
+
+.dev_main-wrapper{
+    height: calc(100vh - 80px);
+}
+
+.dev_lat-nav{
+    width: 70px;
+    background-color: burlywood;
+}
+
+main{
+    width: calc(100% - 70px);
+    background-color: chartreuse;
+}
