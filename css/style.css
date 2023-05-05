@@ -18,9 +18,6 @@ main{
     overflow-y: scroll;
 }
 
-.dev_classes-card{
-    height: 500px;
-}
 
 main header{
     background-color: cornflowerblue;
