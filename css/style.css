@@ -15,4 +15,14 @@ header{
 main{
     width: calc(100% - 70px);
     background-color: chartreuse;
+    overflow-y: scroll;
+}
+
+.dev_classes-card{
+    height: 500px;
+}
+
+main header{
+    height: 200px;
+    background-color: cornflowerblue;
 }
