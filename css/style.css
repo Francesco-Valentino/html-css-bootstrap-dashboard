@@ -76,6 +76,17 @@ main{
     line-height: 1rem;
 }
 
+.dev_new-student-button{
+    color: white;
+    border: white 1px solid;
+    background: transparent;
+}
+
+#offcanvasWithBothOptions{
+    color: black;
+    width: 50vw;
+}
+
 div.card.dev_stats{
     width: 100%;
 }
