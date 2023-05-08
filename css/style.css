@@ -59,6 +59,12 @@ img.dev_mini-logo{
 .dev_single-action{
     color: white;
     text-decoration: none;
+    transition: linear .15s;
+}
+
+.dev_single-action:hover{
+    background-color: #5B5858;
+    color: white;
 }
 
 main{
@@ -80,11 +86,25 @@ main{
     color: white;
     border: white 1px solid;
     background: transparent;
+    transition: linear .15s;
+}
+
+.dev_new-student-button:hover{
+    color: black;
+    background-color: white;
 }
 
 #offcanvasWithBothOptions{
     color: black;
-    width: 50vw;
+    width: 100vw;
+}
+
+.dev_input{
+    width: 100%;
+}
+
+div.card{
+    margin: 1rem 0;
 }
 
 div.card.dev_stats{
@@ -99,4 +119,9 @@ div.card.dev_stats{
     main{
         width: calc(100% - 130px);
     }
+
+    #offcanvasWithBothOptions{
+        width: 50vw;
+    }
 }
+

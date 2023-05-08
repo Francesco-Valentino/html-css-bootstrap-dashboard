@@ -62,7 +62,7 @@
             <div class="dev_lat-nav">
               <div class="dev_lat-wrapper d-flex flex-column justify-content-between align-items-center py-3">
                 <div class="dev_actions">
-                  <a href="#" class="dev_single-action pb-3 d-block">
+                  <a href="#" class="dev_single-action py-2 px-1 d-block">
                     <span class="pe-1">
                       <i class="fa-solid fa-house"></i>
                     </span>
@@ -72,7 +72,7 @@
                     </span>
                   </a>
 
-                  <a href="#" class="dev_single-action pb-3 d-block">
+                  <a href="#" class="dev_single-action py-2 px-1 d-block">
                     <span class="pe-1">
                       <i class="fa-solid fa-chart-simple"></i>
                     </span>
@@ -82,7 +82,7 @@
                     </span>
                   </a>
 
-                  <a href="#" class="dev_single-action pb-3 d-block">
+                  <a href="#" class="dev_single-action py-2 px-1 d-block">
                     <span class="pe-1">
                       <i class="fa-solid fa-signal"></i>
                     </span>
@@ -94,7 +94,7 @@
                 </div>
 
                 <div class="dev_settings">
-                  <a href="#" class="dev_single-action d-block">
+                  <a href="#" class="dev_single-action py-2 px-1 d-block">
                     <span class="pe-1">
                       <i class="fa-solid fa-gear"></i>
                     </span>
@@ -166,11 +166,144 @@
 
                       <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
                           <div class="offcanvas-header">
-                            <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Backdrop with scrolling</h5>
+                            <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Inserisci un nuovo studente</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                         </div>
+
                         <div class="offcanvas-body">
-                            <p>Try scrolling the rest of the page to see this option in action.</p>
+                            <div class="container-fluid">
+                              <div class="form row">
+                                <div class="col-12 col-md-6">
+                                  <label for="nameInput" class="form-label">
+                                    Nome
+                                  </label>
+
+                                  <br>
+
+                                  <input type="text" class="dev_input" id="nameInput">
+                                </div>
+
+                                <div class="col-12 col-md-6">
+                                  <label for="lastNameInput" class="form-label">
+                                    Cognome
+                                  </label>
+
+                                  <br>
+
+                                  <input type="text" class="dev_input" id="lastNameInput">
+                                </div>
+
+                                <div class="col-12 col-md-6">
+                                  <label for="emailInput" class="form-label">
+                                    Email
+                                  </label>
+
+                                  <br>
+
+                                  <input type="email" class="dev_input" placeholder="@">
+                                </div>
+
+                                <div class="col-12 col-md-6">
+                                  <label for="passwordInput">
+                                    Password
+                                  </label>
+
+                                  <br>
+
+                                  <input type="password" class="dev_input">
+                                </div>
+
+                                <div class="col-12 col-md-6 d-none d-lg-block">
+                                  <label for="emailInput" class="form-label">
+                                    Email
+                                  </label>
+
+                                  <br>
+
+                                  <input type="email" class="dev_input" placeholder="@">
+                                </div>
+
+                                <div class="col-12 col-md-6 d-none d-lg-block">
+                                  <label for="passwordInput">
+                                    Password
+                                  </label>
+
+                                  <br>
+
+                                  <input type="password" class="dev_input">
+                                </div>
+
+                                <div class="col-12">
+                                  <label for="addressInput" class="form-label">
+                                    Indirizzo
+                                  </label>
+
+                                  <br>
+
+                                  <input type="text" class="dev_input" id="addressInput">
+                                </div>
+
+                                <div class="col-12 col-md-6">
+                                  <label for="cityInput" class="form-label">
+                                    Città
+                                  </label>
+
+                                  <br>
+
+                                  <input type="text" class="dev_input" id="cityInput">
+                                </div>
+
+                                <div class="col-12 col-md-4">
+                                  <label class="form-label" for="inputGroupSelect">Stato</label>
+
+                                  <br>
+
+                                  <select class="form-select" id="inputGroupSelect">
+                                    <option selected>Choose...</option>
+                                    <option value="1">Italia</option>
+                                    <option value="2">San Marino</option>
+                                    <option value="3">Vaticano</option>
+                                  </select>
+                                </div>
+
+                                <div class="col-12 col-md-2">
+                                  <label class="form-label" for="capInput">
+                                    CAP
+                                  </label>
+
+                                  <br>
+
+                                  <input type="number" class="dev_input" id="capInput">
+                                </div>
+
+                                <div class="col-12">
+                                  <label for="inputGroupFile">
+                                    Foto
+                                  </label>
+
+                                  <br>
+
+                                  <div class="input-group mb-3 dev_input">
+                                    <input type="file" class="form-control" id="inputGroupFile">
+                                  </div>
+                                  
+                                </div>
+                                
+                                <div class="col-12 pb-2">
+                                  <input type="checkbox">
+
+                                  <span>
+                                    Seleziona per proseguire
+                                  </span>
+                                </div>
+
+                                <div class="col-12">
+                                  <button type="submit" class="btn btn-primary">Salva</button>
+
+                                  <button type="button" class="btn btn-warning">Svuota</button>
+                                </div>
+                              </div>
+                            </div>
                         </div>
                       </div>
                     </div>
@@ -269,31 +402,31 @@
                                             <div class="accordion-item">
                                               <h2 class="accordion-header" id="flush-headingOne">
                                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                                  Accordion Item #1
+                                                  Come aggiungo un nuovo studente?
                                                 </button>
                                               </h2>
                                               <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                                                <div class="accordion-body">Clicca sul + in alto nella sezione blu.</div>
                                               </div>
                                             </div>
                                             <div class="accordion-item">
                                               <h2 class="accordion-header" id="flush-headingTwo">
                                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                                  Accordion Item #2
+                                                  Come posso accedere alle informazioni del mio account?
                                                 </button>
                                               </h2>
                                               <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                                                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                                                <div class="accordion-body">Clicca sull'icona della campanella.</div>
                                               </div>
                                             </div>
                                             <div class="accordion-item">
                                               <h2 class="accordion-header" id="flush-headingThree">
                                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                                  Accordion Item #3
+                                                  Posso usare questa dashboard da mobile?
                                                 </button>
                                               </h2>
                                               <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                                                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                                                <div class="accordion-body">Questa dashboard è pienamente responsive, quindi è utilizzabile su qualsiasi device.</div>
                                               </div>
                                             </div>
                                           </div>
@@ -309,9 +442,9 @@
 
                                     <div class="card-body">
                                         <ul class="list-group">
-                                            <li class="list-group-item">An item</li>
-                                            <li class="list-group-item">A second item</li>
-                                            <li class="list-group-item">A third item</li>
+                                            <li class="list-group-item"><input type="checkbox" class="me-2">Kickoff nuove classi</li>
+                                            <li class="list-group-item"><input type="checkbox" class="me-2">Lezione su Bootstrasp 5 in classe #75</li>
+                                            <li class="list-group-item"><input type="checkbox" class="me-2">Controllare username Github studenti</li>
                                           </ul>
                                     </div>
                                 </div>
@@ -320,19 +453,18 @@
                                     <img src="img/stats.jpeg" class="card-img-top" alt="graph">
 
                                     <div class="card-body">
-                                      <h5 class="card-title">Card title</h5>
-                                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                      <h5 class="card-title">Utenti attivi</h5>
+                                      <p class="card-text">Lista degli utenti attivi sulla piattaforma nell'ultimo mese</p>
                                     </div>
 
                                     <ul class="list-group list-group-flush">
-                                      <li class="list-group-item">An item</li>
-                                      <li class="list-group-item">A second item</li>
-                                      <li class="list-group-item">A third item</li>
+                                      <li class="list-group-item">Gennaio: 1200</li>
+                                      <li class="list-group-item">Febbraio: 800</li>
+                                      <li class="list-group-item">Marzo: 1500</li>
                                     </ul>
 
                                     <div class="card-body">
-                                      <a href="#" class="card-link">Card link</a>
-                                      <a href="#" class="card-link">Another link</a>
+                                      <a href="#" class="card-link">Visualizza report approfondito</a>
                                     </div>
                                   </div>
                             </div>
