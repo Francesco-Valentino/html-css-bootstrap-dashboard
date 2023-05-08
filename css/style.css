@@ -11,11 +11,16 @@ header{
     width: 70px;
     background-color: burlywood;background: url(../img/sidebar-bg.png);
     background-color: #051E34;
-    color: white;
 }
 
 .dev_lat-wrapper{
     height: 100%;
+    font-size: .9rem;
+}
+
+.dev_single-action{
+    color: white;
+    text-decoration: none;
 }
 
 main{
@@ -34,10 +39,10 @@ div.card.dev_stats{
 
 @media screen and (min-width: 992px){
     .dev_lat-nav{
-        width: 150px;
+        width: 130px;
     }
     
     main{
-        width: calc(100% - 150px);
+        width: calc(100% - 130px);
     }
 }
