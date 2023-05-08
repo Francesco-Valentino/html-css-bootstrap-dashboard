@@ -11,11 +11,16 @@ header{
     width: 70px;
     background-color: burlywood;background: url(../img/sidebar-bg.png);
     background-color: #051E34;
+    color: white;
+}
+
+.dev_lat-wrapper{
+    height: 100%;
 }
 
 main{
     width: calc(100% - 70px);
-    /*background-color:*/ chartreuse;
+    /*background-color: chartreuse;*/
     overflow-y: scroll;
 }
 
