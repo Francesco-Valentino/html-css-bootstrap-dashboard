@@ -14,21 +14,45 @@
     <body>
         <header>
             <div class="container-fluid">
-                <div class="row">
-                    <div class="col-2">
-                        <img src="img/logo.svg" alt="logo di Boolean">
+                <div class="row align-items-center py-1 py-lg-2">
+                    <div class="col-1 col-lg-2">
+                        <img class="dev_logo d-none d-lg-inline-block" src="img/logo.svg" alt="logo di Boolean">
+
+                        <img class= "dev_mini-logo d-lg-none" src="img/mobile-logo.png" alt="logo di Boolean per mobile">
                     </div>
 
                     <div class="col">
-                      <div class="dev_searchbar">
+                      <div class="dev_searchbar d-flex">
                         <i class="fa-solid fa-magnifying-glass"></i>
 
                         <input type="text" placeholder="Prova a cercare: Lezioni di Laravel">
                       </div>
                     </div>
 
-                    <div class="col-2">
+                    <div class="col-1 col-lg-2 d-flex align-items-center justify-content-around">
+                      <a class="dev_header-action d-none d-lg-inline-block" href="#">
+                        <i class="fa-solid fa-list-ul"></i>
+                      </a>
 
+                      <a class="dev_header-action d-none d-lg-inline-block" href="#">
+                        <i class="fa-solid fa-circle-question"></i>
+                      </a>
+
+                      <a class="dev_header-action d-none d-lg-inline-block" href="#">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                      </a>
+
+                      <div class="dropdown">
+                        <a class="btn" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <i class="fa-solid fa-bell" style="color: #ffac00;"></i>
+                        </a>
+                      
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      
                     </div>
                 </div>
             </div>
@@ -38,7 +62,7 @@
             <div class="dev_lat-nav">
               <div class="dev_lat-wrapper d-flex flex-column justify-content-between align-items-center py-3">
                 <div class="dev_actions">
-                  <a class="dev_single-action pb-3 d-block">
+                  <a href="#" class="dev_single-action pb-3 d-block">
                     <span class="pe-1">
                       <i class="fa-solid fa-house"></i>
                     </span>
@@ -48,7 +72,7 @@
                     </span>
                   </a>
 
-                  <a class="dev_single-action pb-3 d-block">
+                  <a href="#" class="dev_single-action pb-3 d-block">
                     <span class="pe-1">
                       <i class="fa-solid fa-chart-simple"></i>
                     </span>
@@ -58,7 +82,7 @@
                     </span>
                   </a>
 
-                  <a class="dev_single-action pb-3 d-block">
+                  <a href="#" class="dev_single-action pb-3 d-block">
                     <span class="pe-1">
                       <i class="fa-solid fa-signal"></i>
                     </span>
@@ -70,7 +94,7 @@
                 </div>
 
                 <div class="dev_settings">
-                  <a class="dev_single-action d-block">
+                  <a href="#" class="dev_single-action d-block">
                     <span class="pe-1">
                       <i class="fa-solid fa-gear"></i>
                     </span>
@@ -84,7 +108,7 @@
             </div>
     
             <main>
-                <header>
+                <header class="dev_content-header">
 
                 </header>
 

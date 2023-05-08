@@ -1,6 +1,19 @@
 header{
+    height: 60px;
+}
+
+.dev_content-header{
     height: 80px;
-    background-color: aqua;
+    background-color: cornflowerblue;
+}
+
+img.dev_logo{
+    max-width: 100%;
+    padding-left: .5rem;
+}
+
+img.dev_mini-logo{
+    width: 50px;
 }
 
 .dev_searchbar{
@@ -8,6 +21,7 @@ header{
     border-radius: 5px;
     width: 100%;
     padding: .5rem;
+    overflow-x: hidden;
 }
 
 .dev_searchbar i{
@@ -21,8 +35,13 @@ header{
     font-size: .9rem;
 }
 
+.dev_header-action{
+    text-decoration: none;
+    color: #5B5858;
+}
+
 .dev_main-wrapper{
-    height: calc(100vh - 80px);
+    height: calc(100vh - 60px);
 }
 
 .dev_lat-nav{
@@ -46,11 +65,6 @@ main{
     /*background-color: chartreuse;*/
     overflow-y: scroll;
 }
-
-main header{
-    background-color: cornflowerblue;
-}
-
 div.card.dev_stats{
     width: 100%;
 }
