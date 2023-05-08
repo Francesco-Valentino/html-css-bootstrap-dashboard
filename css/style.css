@@ -9,12 +9,13 @@ header{
 
 .dev_lat-nav{
     width: 70px;
-    background-color: burlywood;
+    background-color: burlywood;background: url(../img/sidebar-bg.png);
+    background-color: #051E34;
 }
 
 main{
     width: calc(100% - 70px);
-    background-color: chartreuse;
+    /*background-color:*/ chartreuse;
     overflow-y: scroll;
 }
 
@@ -24,4 +25,14 @@ main header{
 
 div.card.dev_stats{
     width: 100%;
+}
+
+@media screen and (min-width: 992px){
+    .dev_lat-nav{
+        width: 150px;
+    }
+    
+    main{
+        width: calc(100% - 150px);
+    }
 }
